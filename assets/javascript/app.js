@@ -5,7 +5,7 @@ var plants = ["cacti", "trees", "flowers", "marijuana"];
 function displayPlantInfo() {
 
   var plant = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + plant + "&apikey=x0LgLZIX4T9duY5Wu3ZllliSbezt15IS&limit=10";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + plant + "&apikey=x0LgLZIX4T9duY5Wu3ZllliSbezt15IS&limit=10";
 
   // Creating an AJAX call for the specific plant button being clicked
     $.ajax({
